@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>New User</h1>
+ <form>
+    <label for="fullname">Full Name:</label>
+    <input type="text" name="fullname" required><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="male"> Male<br><br>
+
+    <label for="stateoforigin">State of origin:</label>
+    <select name="stateoforigin">
+        <option value="select">Anambra</option>
+        <option value="abia">Abia</option>
+        <option value="rivers">Rivers</option>
+        <option value="fctabuja">FCT Abuja</option>
+        <option value="enugu">Enugu</option>
+        <option value="others">Others</option>
+    </select>
+
+    <h3>If others please specify:</h3>
+    <input type="text"><br><br>
+
+    <labe6543l for="email">Email:</label>
+    <input type="email" name="email" required><br><br>
+
+    <label for="phonenumber">Phone Number:</label>
+    <input type="tel" name="phonenumber"><br><br>
+    
+    <label for="username">Username:</label>
+    <input type="text" name="username" required><br><br>
+
+     <label for="pword">Password:</label>
+    <input type="password" name="pword" required><br><br>
+
+    <label for="pword">Confirm Password:</label>
+    <input type="password" name="pword" required><br><br><br>
+
+    <input type="button" value="Register">
+
+
+ </form>   
+ <p>Already a user? login using the link below</p>
+ <a href="index.html" target="_blank" >Login</a>
+</body>
+</html>

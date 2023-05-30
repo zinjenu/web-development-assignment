@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+    border-style: groove;
+    border-width: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+form{
+    font-size: 30px;
+}
+
+
+h1{
+    color: darkolivegreen;
+    font-size: 100px;
+    text-align: center;
+}
+h2{
+    color: rgb(55, 53, 85);
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    color: crimson;
+}
